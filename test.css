@@ -1,3 +1,120 @@
-body {
-	background: url(images/bg.gif);
+body, h1, p, a, input , select, textarea {
+	margin: 0;
+	padding: 0;
 }
+
+body {
+	background: rgb(231,230,225) repeat;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+#warpper {
+		background: url(images/bg.jpg) no-repeat;
+		padding-top:200px;
+		width: 1000px;
+		height: 492px;
+}
+
+#header {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#nav {
+	height: 35px;
+	margin: 0 auto;
+	margin-top:30px;
+}
+
+#nav ul {
+	width: 960px;
+	height: 35px;
+	list-style: none
+}
+
+#nav ul li {
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+#nav ul li a {
+	display: block; 
+	height: 35px; 
+	font-size: 24px; 
+	color: black; 
+	text-decoration: none; 
+	float: left;
+	padding: 0 10px;
+}
+
+#nav ul li a:hover {
+	color: white;
+}
+
+.cleaner {
+	clear: both;
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#post {
+	width: 580px;
+	display: block;
+	float: left;
+	padding-left: 100px;
+}
+
+h1 {
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+
+p {
+	font-family: 微软雅黑;
+}
+
+#tab {
+    	font-family: 微软雅黑;
+    	color: #FF736E;
+    	border: 3px solid;
+    	border-color: #E8AE59;
+    	background: url(images/06563133.gif);
+    	border-collapse: collapse;
+    	float: left;
+}
+
+#tab td, #tab th {
+    	border: 1px solid;
+    	border-color: #E8AE59;
+}
+#love {
+    	color: #FF736E;
+    	font-size: 20px;
+}
+
+#test-form {
+    width: 300px;
+    height: 240px;
+    background: url(images/06563133.gif);
+}
+
+#test-form label {
+    padding-right: 10px;
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+
+#sidebar {
+	width: 300px;
+	display: block;
+	float: left;
+}
+

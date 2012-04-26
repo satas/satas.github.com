@@ -7,8 +7,107 @@
 <link rel="stylesheet" type="text/css" href="test.css" />
 </head>
 <body>
-	Hello Github
-Test and Test again
-<img src="images/zhaopian.jpg" />
-啦啦啦
+	<div id="warpper">
+ <div id="header">
+       	<div id="nav">
+           		<ul>
+           		<li><a href="">Blog</a></li>
+           		<li><a href="">About me</a></li>
+      		</ul>
+  </div>
+    <div class="cleaner"></div>
+</div>
+<!-- end of header-->
+<div id="content">
+   <div id="post">
+   	<h1>Table  Form</h1>
+   	<p>刚刚开始学HTML+CSS的时候写的东西</p>
+	<form id="test-form" >
+    <fieldset>
+        <legend>选手资料</legend>
+        <label id="name" for="q">姓名:</label>
+        <input  id="q" type="text" name="fristname" value="Sun" autofocus="autofocus"/>
+        <br />
+        <label for="w">职业:</label>
+        <input id="w" type="text" name="lastname"  value="拳击选手"/>
+        <br />
+        <label for="s">年龄:</label>
+        <select id="s"name="age">
+                <option value="20">年轻人</option>
+                <option value="40">中年人</option>
+                <option value="60">老年人</option>
+                <option value="80" selected="selected">老人参</option>
+        </select>
+        <br />
+        <label for="i">喜欢打人</label>
+        <input id="i"type="radio" name="sex" value="male" />
+        <br />
+        <label for="r">喜欢被打</label>
+        <input id="r"type="radio" name="sex" checked="checked" value="fmale"/>
+        <br />
+        <label for="c">赚钱给老婆</label>
+        <input id="c" type="checkbox"  name="bike" checked="checked" />
+        <br />
+        <label for="d">买东西给老婆</label>
+        <input id="d" type="checkbox" name="car" checked="checked" />
+        <br />
+        <label for="p">评价:</label>
+        <textarea id="p"rows="4" cols="19">该人RP不错，关心家人，爱护花草，组委会可以考虑。</textarea>
+        <br />
+        <label for="x">选择此人</label>
+        <input id="x"type="button" value="确认">
+    </fieldset>    
+	</form> 
+   <table id="tab"  cellpadding="10" cellspacing="10" >
+    <caption id="love">LOVE STORY</caption>
+    <tr>
+        <th>做事/娃</th>
+        <th>Sun</th>
+        <th>Tina</th>
+    </tr>
+    <tr>
+        <th>扫地</th>
+        <td>1次</td>
+        <td>10000次</td>
+    </tr>
+    <tr>
+        <th>洗碗</th>
+        <td>1次</td>
+        <td>10000次</td>
+    </tr>
+    <tr>
+        <th>做饭</th>
+        <td>0次</td>
+        <td>10000次</td>
+    </tr>
+    <tr>
+        <th>爱好</th>
+        <td>
+            <ul>
+                <li>Tina is my world</li>
+                <li>Tina is my world</li>
+                <li>Tina is my world</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li><a href="http://www.weibo.com">微博</a></li>
+                <li><a href="http://www.weibo.com">豆瓣</a></li>
+                <li><a href="http://www.weibo.com">HTML</a></li>
+            </ul>
+        </td>
+    </tr>   
+	</table>
+   <div class="cleaner"></div>
+   </div>
+   </div>
+   <div id="sidebar">
+   	<h1>Contact me</h1>
+   	<ul>
+   		<li>QQ</li>
+   		<li>Email</li>
+   	</ul>
+   </div>
+</div>
 </body>
+</html>
